@@ -57,8 +57,8 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 @media screen and (max-width: 1100px){
     .carousel, .carousel-inner, .carousel-inner .carousel-item { height: calc(95vh - 95px); }
     .carousel-caption { display: block; }
-    .carousel-caption h1 { margin: 0; text-shadow: 1px 2px 6px #000; }
-    .carousel-caption { top: 50%; transform: translateY(-60px); }
+    .carousel-caption h1 { margin: 0; text-shadow: 1px 2px 6px #000; font-family: 'Nexa Bold', sans-serif; font-size: 50px; }
+    .carousel-caption { top: 50%; transform: translateY(-30%); }
     .carousel-item.hero-item:nth-child(1) { background-image: url("../images/slider/mobile/slider1.png"); }
     .carousel-item.hero-item:nth-child(2) { background-image: url("../images/slider/mobile/slider2.png"); }
     .carousel-item.hero-item:nth-child(3) { background-image: url("../images/slider/mobile/slider3.png"); }
