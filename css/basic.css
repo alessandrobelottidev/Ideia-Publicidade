@@ -50,11 +50,11 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 .carousel-item.hero-item:nth-child(1) { background-image: url("../images/slider/slider1.png"); }
 .carousel-item.hero-item:nth-child(2) { background-image: url("../images/slider/slider2.png"); }
 .carousel-item.hero-item:nth-child(3) { background-image: url("../images/slider/slider3.png"); }
-.carousel-item.hero-item:nth-child(4) { background-image: url("../images/slider/slider4.png"); }
+.carousel-item.hero-item:nth-child(4) { background-image: url("../images/slider/mobile/slider4.png"); }
 .carousel-item.hero-item:nth-child(5) { background-image: url("../images/slider/slider5.png"); }
-.carousel-item.hero-item:nth-child(6) { background-image: url("../images/slider/slider6.png"); }
+.carousel-item.hero-item:nth-child(6) { background-image: url("../images/slider/mobile/slider6.png"); }
 .carousel-caption { display: none; }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1200px){
     .carousel, .carousel-inner, .carousel-inner .carousel-item { height: calc(95vh - 95px); }
     .carousel-caption { display: block; }
     .carousel-caption h1 { margin: 0; text-shadow: 1px 2px 6px #000; font-family: 'Nexa Bold', sans-serif; font-size: 50px; }
