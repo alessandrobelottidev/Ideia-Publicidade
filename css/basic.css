@@ -27,10 +27,10 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 .navbar { max-width: 1200px; margin: 0 auto; }
 .navbar-logo { max-width: 120px; }
 .nav-link { font-size: 18px; font-family: 'Nexa Bold', sans-serif; }
-.nav-btn { border: 1px solid #FFC20E; transition: background-color 0.6s; background-color: #FFC20E; color: #fff; border-radius: 40px; padding: 0px 10px; margin-left: 20px; transition: 0.3s; }
+.nav-btn { border: 1px solid #FFC20E; transition: background-color 0.6s!important; background-color: #FFC20E; color: #fff; border-radius: 40px; padding: 0px 10px; margin-left: 20px; transition: 0.3s; }
 .nav-btn:hover { background-color: #353535; border: 1px solid #353535; }
 .nav-btn a { color: inherit }
-.btn { border: 1px solid #FFC20E; transition: background-color 0.6s; background-color: #FFC20E; color: #fff; border-radius: 40px; padding: 10px 20px; transition: 0.3s; font-size: 18px; font-family: 'Nexa Bold', sans-serif; width: 200px; }
+.btn { border: 1px solid #FFC20E; transition: background-color 0.6s!important; background-color: #FFC20E; color: #fff; border-radius: 40px; padding: 10px 20px; transition: 0.3s; font-size: 18px; font-family: 'Nexa Bold', sans-serif; width: 200px; }
 .btn:hover { background-color: #353535; border: 1px solid #353535; color: #fff; }
 .btn a { color: inherit; }
 .btn a:hover { text-decoration: none; }
