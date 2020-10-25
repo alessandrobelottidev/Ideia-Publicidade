@@ -57,7 +57,7 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 .carousel-item.hero-item:nth-child(3) { background-image: url("../images/slider/slider3.png"); }
 .carousel-item.hero-item:nth-child(4) { background-image: url("../images/slider/mobile/slider4.png"); }
 .carousel-item.hero-item:nth-child(5) { background-image: url("../images/slider/slider5.png"); }
-.carousel-item.hero-item:nth-child(6) { background-image: url("../images/slider/mobile/slider6.png"); }
+.carousel-item.hero-item:nth-child(6) { background-image: url("../images/slider/slider6.png"); }
 .carousel-caption { display: none; }
 .carousel-caption { top: 50%; transform: translateY(-30%); }
 .carousel-caption.special { display: block; }
