@@ -19,7 +19,7 @@ a { color: #353535; transition: 0.3s; }
 a:hover { color: #FFC20E }
 .block { padding: 60px 100px; max-width: 1200px; margin: 0 auto; }
 p > span { font-family: 'Nexa Bold', sans-serif; }
-.social-icons { text-align: center; margin-top: 30px; }
+.social-icons { text-align: left; margin-top: 30px; }
 .social-icons i { color: #fff; background-color: #FFC20E; font-size: 36px; padding: 10px; border-radius: 40px; }
 .social-icons i:nth-child(1) { padding-left: 14px; padding-right: 14px;}
 .social-icons i:nth-child(2) { padding-left: 18px; padding-right: 18px; }
