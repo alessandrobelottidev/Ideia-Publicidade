@@ -19,6 +19,11 @@ a { color: #353535; transition: 0.3s; }
 a:hover { color: #FFC20E }
 .block { padding: 60px 100px; max-width: 1200px; margin: 0 auto; }
 p > span { font-family: 'Nexa Bold', sans-serif; }
+.social-icons { text-align: center; margin-top: 30px; }
+.social-icons i { color: #fff; background-color: #FFC20E; font-size: 36px; padding: 10px; border-radius: 40px; }
+.social-icons i:nth-child(1) { padding-left: 14px; padding-right: 14px;}
+.social-icons i:nth-child(2) { padding-left: 18px; padding-right: 18px; }
+.social-icons i:nth-child(3) { padding-left: 13px; padding-right: 13px; }
 @media screen and (max-width: 768px){
     .block { padding: 60px 40px; }
 }
@@ -58,15 +63,17 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 .carousel-caption.special { display: block; }
 .carousel-caption.special h1 { margin: 0; text-shadow: 1px 2px 6px #000; font-family: 'Nexa Bold', sans-serif; font-size: 50px; }
 @media screen and (max-width: 1200px){
-    .carousel, .carousel-inner, .carousel-inner .carousel-item { height: calc(95vh - 95px); }
+    .carousel, .carousel-inner, .carousel-inner .carousel-item { height: 280px; }
     .carousel-caption { display: block; }
     .carousel-caption h1 { margin: 0; text-shadow: 1px 2px 6px #000; font-family: 'Nexa Bold', sans-serif; font-size: 50px; }
+    /*
     .carousel-item.hero-item:nth-child(1) { background-image: url("../images/slider/mobile/slider1.png"); }
     .carousel-item.hero-item:nth-child(2) { background-image: url("../images/slider/mobile/slider2.png"); }
     .carousel-item.hero-item:nth-child(3) { background-image: url("../images/slider/mobile/slider3.png"); }
     .carousel-item.hero-item:nth-child(4) { background-image: url("../images/slider/mobile/slider4.png"); }
     .carousel-item.hero-item:nth-child(5) { background-image: url("../images/slider/mobile/slider5.png"); }
     .carousel-item.hero-item:nth-child(6) { background-image: url("../images/slider/mobile/slider6.png"); }
+    */
 }
 
 .about-us-img { width: 100%; height: auto; }
@@ -76,7 +83,7 @@ p > span { font-family: 'Nexa Bold', sans-serif; }
 @media screen and (max-width: 768px){
     .about-us-desc h2 { margin-top: 30px; }
 }
-@media screen and (max-width: 576px) { 
+@media screen and (max-width: 576px) {
     .about-us-desc { padding: 0px!important; }
 }
 
